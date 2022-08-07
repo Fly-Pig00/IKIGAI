@@ -1,0 +1,87 @@
+/* Common CSS */
+body {
+  background: #e2e8e7;
+  color: #53565e;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: #53565e;
+}
+.custom-btn {
+  background-color: #b24332;
+  border-color: #b24332;
+  color: white;
+  padding: 10px 20px;
+}
+
+.custom-btn:hover {
+  background-color: #53565e;
+  color: #ffffff;
+}
+
+/* Intro Video */
+
+#intro-video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.intro-text {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==========Home Page Header Section================ */
+.header-section {
+  height: 100vh;
+}
+.header-section-left {
+  text-align: center;
+}
+
+.header-section-left h2 {
+  font-size: 40px;
+}
+.header-section-left p {
+  font-size: 18px;
+}
+.form-btn {
+  background-color: #b24332;
+  border-color: #b24332;
+  /* padding: 10px 25px; */
+}
+.form-btn:hover {
+  background-color: #53565e;
+}
+.header-learn-more {
+  margin-top: 5%;
+}
+
+/* ==========Learn More Page================ */
+
+.learn-more-text {
+  line-height: 2rem;
+}
+.text-img-row {
+  padding: 20px 0 20px 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .homepage-form {
+    margin-top: 40px;
+  }
+  .header-learn-more {
+    margin-top: 60px;
+  }
+}
